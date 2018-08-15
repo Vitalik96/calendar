@@ -1,0 +1,31 @@
+table{
+    border: 2px solid black;
+    width: 1000px;
+    margin: 0 auto;
+    height: 800px;
+}
+#weekand{
+    height: 30px;
+}
+td{
+    border: 1px solid black;
+    background: indianred;
+}
+th{
+    border: 1px solid black;
+    height: 50px;
+    background: darksalmon;
+}
+tr:nth-child(2n+3){
+    height: 30px;
+    text-align: right;
+}
+.bg-silver{
+    background: silver;
+}
+.bg-pink{
+    background: pink;
+}
+.bg-red{
+    background: red;
+}
